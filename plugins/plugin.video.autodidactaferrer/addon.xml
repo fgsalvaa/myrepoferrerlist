@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.autodidactaferrer"
+	name="[COLOR blue]Cursos [/COLOR] de [COLOR yellow]Python y mas[/COLOR]"
+	version="1.0.1"
+	provider-name="[COLOR red]ferrerlist[/COLOR] | [COLOR yellow]by:[/COLOR] [COLOR blue]Elenilson ferrer[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Curso de Python y mas</summary>
+    <summary lang="es">Curso de Python y mas</summary>
+    <description lang="en">Dirigido al que desea aprender algo nuevo by ferrer.</description>
+    <description lang="es">Dirigido al que desea aprender algo nuevo -basado en youtube by ferrer </description>
+    <platform>all</platform>
+    <forum>ferrer</forum>
+    <website>ferrer</website>
+  </extension>
+</addon>
