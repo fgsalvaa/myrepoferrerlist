@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.supermospytv"
-       name="supermospytv"
-       version="0.0.1"
-       provider-name="supermospytv">
+       name="SUPER MOSPY TV"
+       version="0.0.2"
+       provider-name="MOSPY">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -21,11 +21,13 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
+  
 
 
   <extension point="xbmc.addon.metadata">
-    <summary>supermospytv  - Television - Peliculas - Series</summary>
-    <description>No se dejen engañar este addon es gratuito      
+    <summary>Super Mospy TV  - Television - Peliculas - Series</summary>
+    <description> No se dejen engañar este addon es gratuito 2017
+si queres hacer una donación esta es mi cuenta de Paypal: nischter@gmail.com	
     </description>
     <platform>all</platform>
   </extension>
